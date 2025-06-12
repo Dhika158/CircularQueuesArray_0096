@@ -84,6 +84,7 @@ class Queues
 
         cout << "\nElement in the queue are...\n";
 
-        
+        // JIka FRONT_position <= REAR_position, interasi dari FRONT hingga REAR
+        if (FRONT_position <= REAR_position)
     }
 }
