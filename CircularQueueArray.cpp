@@ -84,7 +84,7 @@ class Queues
 
         cout << "\nElement in the queue are...\n";
 
-        // JIka FRONT_position <= REAR_position, interasi dari FRONT hingga REAR
+        // JIka FRONT_position <= REAR_position, iterasi dari FRONT hingga REAR
         if (FRONT_position <= REAR_position)
         {
             while (FRONT_position <= REAR_position)
@@ -96,7 +96,7 @@ class Queues
         }
         else
         {
-            // Jika FRONT_position > REAR_position, interasi dari FRONT hingga akhir array
+            // Jika FRONT_position > REAR_position, iterasi dari FRONT hingga akhir array
             while (FRONT_position <= max -1 )
             {
                 cout << queue_array[FRONT_position] << "  ";
@@ -105,7 +105,24 @@ class Queues
 
             FRONT_position = 0;
 
-            
+            // Iterasi dari awal array hingga REAR
+            while (FRONT_position <= REAR_position)
+            {
+                cout << queue_array[FRONT_position] << "  ";
+                FRONT_position
+            }
+            cout << endl;
         }
+    }
+};
+
+int main()
+{
+    Queues q;
+    char ch;
+
+    while (true)
+    {
+        
     }
 }
