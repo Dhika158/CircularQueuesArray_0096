@@ -86,5 +86,12 @@ class Queues
 
         // JIka FRONT_position <= REAR_position, interasi dari FRONT hingga REAR
         if (FRONT_position <= REAR_position)
+        {
+            while (FRONT_position <= REAR_position)
+            {
+                cout << queue_array[FRONT_position] << "  ";
+                FRONT_position++;
+            }
+        }
     }
 }
