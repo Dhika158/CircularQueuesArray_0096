@@ -56,7 +56,7 @@ class Queues
         cout << "\nThe element deleted from the queue is : " << queue_array
         [FRONT] << "\n";
 
-        // Cek jika antrian apakah 
+        // Cek jika antrian apakah hanya memiliki satu element
         if (FRONT == REAR)
         {
             FRONT = -1;
